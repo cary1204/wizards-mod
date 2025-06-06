@@ -14,7 +14,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item WIZARD_ITEM = registerItem("wizard_item", Item::new, new Item.Settings());
+    public static final Item fireball_staff = registerItem("fireball_staff", Item::new, new Item.Settings());
 
     public static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         final RegistryKey<Item> registerKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(WizardsMod.MOD_ID, name));
@@ -22,7 +22,7 @@ public class ModItems {
     }
 
     private static void customIngredients(FabricItemGroupEntries entries) {
-        entries.add(WIZARD_ITEM);
+        entries.add(fireball_staff);
     }
 
     public static void registerModItems() {
