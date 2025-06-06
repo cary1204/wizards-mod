@@ -14,7 +14,8 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item fireball_staff = registerItem("fireball_staff", Item::new, new Item.Settings());
+    // Use the custom FireballStaff class instead of generic Item
+    public static final Item fireball_staff = registerItem("fireball_staff", FireballStaff::new, new Item.Settings());
 
     public static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         final RegistryKey<Item> registerKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(WizardsMod.MOD_ID, name));
