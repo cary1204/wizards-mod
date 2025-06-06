@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wizards-mod",
+	"version": "${version}",
+	"name": "Wizards Mod",
+	"description": "This simply mod that adds simply wizard items, like a staff and mana potions!",
+	"authors": [
+		"Cary!"
+	],
+	"contact": {
+		"homepage": "https://github.com/",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/wizards-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cary.wizardmod.WizardsMod"
+		],
+		"fabric-datagen": [
+			"com.cary.wizardmod.WizardsModDataGenerator"
+		],
+		"client": [
+			"com.cary.wizardmod.WizardsModClient"
+		]
+	},
+	"mixins": [
+		"wizards-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
