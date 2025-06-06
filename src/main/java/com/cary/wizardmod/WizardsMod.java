@@ -1,5 +1,6 @@
 package com.cary.wizardmod;
 
+import com.cary.wizardmod.ModItems.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class WizardsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
