@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:leather"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wizards-mod:staff_handle"
+  }
+}

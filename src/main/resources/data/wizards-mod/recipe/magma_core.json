@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:magma_cream",
+    "X": "minecraft:fire_charge",
+    "O": "minecraft:magma_block"
+  },
+  "pattern": [
+    "X#X",
+    "#O#",
+    "X#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "wizards-mod:magma_core"
+  }
+}
