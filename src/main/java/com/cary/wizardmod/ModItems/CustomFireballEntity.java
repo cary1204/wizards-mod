@@ -13,7 +13,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class CustomFireballEntity extends FireballEntity {
-    private static final float IMPACT_DAMAGE = 25.0f; // Higher damage than normal fireball
+    private static final float IMPACT_DAMAGE = 25.0f; //damge of fireball
     private final int customExplosionPower;
 
     public CustomFireballEntity(World world, LivingEntity owner, Vec3d velocity, int explosionPower) {
@@ -30,7 +30,7 @@ public class CustomFireballEntity extends FireballEntity {
                 EntityHitResult entityHit = (EntityHitResult) hitResult;
                 Entity hitEntity = entityHit.getEntity();
 
-                // Deal direct damage to the hit entity
+                // collide dam
                 if (hitEntity instanceof LivingEntity && this.getOwner() != null) {
                     DamageSource damageSource = this.getWorld().getDamageSources().create(
                             DamageTypes.FIREBALL, this, this.getOwner()
@@ -39,14 +39,13 @@ public class CustomFireballEntity extends FireballEntity {
                 }
             }
 
-            // Create small explosion with some fire
             this.getWorld().createExplosion(
                     this,
                     this.getX(),
                     this.getY(),
                     this.getZ(),
                     this.customExplosionPower,
-                    true, // Create some fire (changed from false)
+                    true,
                     World.ExplosionSourceType.MOB
             );
 
