@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "wizards-mod",
-	"version": "${version}",
+	"version": "1.21.4",
 	"name": "Wizards Mod",
-	"description": "This simply mod that adds simply wizard items, like a staff and mana potions!",
+	"description": "My first mod, only have 2 wands",
 	"authors": [
-		"Cary!"
+		"Cary"
 	],
 	"contact": {
-		"homepage": "https://github.com/",
-		"sources": "https://github.com/"
+		"homepage": "https://github.com/cary1204/wizards-mod",
+		"sources": "https://github.com/cary1204/wizards-mod"
 	},
 	"license": "MIT",
 	"icon": "assets/wizards-mod/icon.png",
