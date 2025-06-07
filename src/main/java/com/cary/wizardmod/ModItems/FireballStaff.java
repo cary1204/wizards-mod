@@ -28,8 +28,8 @@ public class FireballStaff extends Item {
         if (!world.isClient) {
             Vec3d lookDirection = user.getRotationVector();
 
-            Vec3d velocity = lookDirection.multiply(2.5); // Fast speed
-            CustomFireballEntity fireball = new CustomFireballEntity(world, user, velocity, 1); // Smaller explosion power for ground damage
+            Vec3d velocity = lookDirection.multiply(2.5);
+            CustomFireballEntity fireball = new CustomFireballEntity(world, user, velocity, 1);
 
 
             fireball.setPosition(

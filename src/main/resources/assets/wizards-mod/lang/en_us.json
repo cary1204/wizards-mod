@@ -1,5 +1,8 @@
 {
   "item.wizards-mod.fireball_staff": "Fireball Staff",
   "item.wizards-mod.magma_core": "Magma Core",
-  "item.wizards-mod.staff_handle": "Staff Handle"
+  "item.wizards-mod.staff_handle": "Staff Handle",
+  "item.wizards-mod.healing_wand": "Healing Wand",
+  "item.wizards-mod.flower_token": "Flower Token",
+  "item.wizards-mod.healing_core": "Healing Core"
 }
