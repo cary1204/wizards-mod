@@ -118,7 +118,7 @@ public class HealingWand extends Item {
                 player.addStatusEffect(new StatusEffectInstance(
                         StatusEffects.REGENERATION,
                         REGEN_DURATION,
-                        4,
+                        9,
                         false,
                         true,
                         true
