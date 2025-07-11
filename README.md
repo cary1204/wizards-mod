@@ -26,7 +26,7 @@ Have you ever wanted to wield powerful magic and become a wizard in Minecraft? T
 
   - No offensive capabilities; designed for support and regeneration.
 
-  - Long cooldown balances powerful effects.
+  - Long cooldown but powerful healing powers.
 
 
 
@@ -37,7 +37,7 @@ Both items can be crafted in survival mode using recipes found on the Gallery pa
 
 ## 🛠️ Compatibility
 
-    Supports Minecraft 1.20+
+    Supports Minecraft 1.21.4
 
     Built for Fabric
 
