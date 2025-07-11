@@ -1,3 +1,7 @@
+# **⚠️THIS MOD REQUIRES FABRIC API⚠️**
+
+
+
 ## Wizards Mod 🧙‍♂️ — Become a Mage in Minecraft
 
 Have you ever wanted to wield powerful magic and become a wizard in Minecraft? The Wizards Mod introduces magical tools — including a Fireball Staff and a Healing Wand — to transform your Minecraft experience with combat and support abilities.
@@ -37,7 +41,7 @@ Both items can be crafted in survival mode using recipes found on the Gallery pa
 
     Built for Fabric
 
-    No external dependencies required.
+    Fabric API required
 
 
 
